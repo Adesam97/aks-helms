@@ -1,0 +1,4 @@
+apiVersion: v2
+name: webapp
+description: Web application with frontend, backend, and MongoDB
+version: 1.0.0
