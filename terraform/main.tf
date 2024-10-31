@@ -25,7 +25,7 @@ resource "azurerm_kubernetes_cluster" "main" {
 # Helm Release for Web Application
 resource "helm_release" "webapp" {
   name       = "webapp"
-  chart      = "../helm-charts"  
+  chart      = "${path.module}/../helm-charts"
   namespace  = "default"
 
   set {

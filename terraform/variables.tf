@@ -1,7 +1,7 @@
 variable "frontend_image_repository" {
   description = "Repository for frontend image"
   type        = string
-  default     = "origenai/cloud-engineer-test-sample-app-frontend"
+  default     = "origenai/cloud-engineer-test-sample-app-rontend"
 }
 
 variable "frontend_image_tag" {
