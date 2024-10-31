@@ -53,3 +53,9 @@ resource "helm_release" "webapp" {
     value = var.mongodb_root_password
   }
 }
+
+resource "kubernetes_namespace" "webapp" {
+  metadata {
+    name = "webapp"
+  }
+}
