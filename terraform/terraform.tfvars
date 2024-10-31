@@ -1,3 +1,3 @@
-frontend_image_repository="your-frontend-image"
-backend_image_repository="your-backend-image"
-mongodb_root_password="your-secure-password"
+frontend_image_repository="origenai/cloud-engineer-test-sample-app-frontend"
+backend_image_repository="origenai/cloud-engineer-test-sample-app-backend"
+mongodb_root_password="pass123"
